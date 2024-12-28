@@ -1,0 +1,67 @@
+/* Background gradient for the pricing container */
+
+  /* Tabs styling */
+  .tabs-container .tab-btn {
+    color: #0f4c81;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .tabs-container .tab-btn.active-tab {
+    background-color: #097bdf;
+    color: #fff;
+  }
+  
+  .tabs-container .tab-btn:hover {
+    /* background-color: #CC7300; */
+  background: linear-gradient(120deg, #E0F7FA, #FFF9E7, #FFECE6);
+
+    color: #000;
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  
+  .card-body h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .card-body ul li {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+  }
+  
+  .card-body .btn {
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .industry-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(8, 88, 236, 0.15);
+  }
+  
+
+  .industry-card img {
+    transition: transform 0.2s ease;
+  }
+  
+  .industry-card:hover img {
+    transform: scale(1.1);
+  }
+  
